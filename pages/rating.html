@@ -1,0 +1,43 @@
+<!--#include virtual="common/document_head.html" -->
+
+<body>
+    <header>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/default.css">
+        <script src="scripts/feedback_validate.js"></script>
+        <title>Soggyroll</title>
+    </header>
+    <main>
+
+        <form id="feedback_form" action="" method="get" class="form-example" onsubmit="feedback_validate()">
+            <label for="feedback_text">Your feedback</label>
+            <input type="text" id="feedback_text" name="feedback_text">
+
+            <input type="radio" id="one" name="rating" value="1">
+            <label for="one">1 star</label><br>
+            <input type="radio" id="two" name="rating" value="2">
+            <label for="two">2 star</label><br>
+            <input type="radio" id="thre" name="rating" value="3">
+            <label for="three">3 star</label><br>
+            <input type="radio" id="four" name="rating" value="4">
+            <label for="four">4 star</label><br>
+            <input type="radio" id="five" name="rating" value="5">
+            <label for="five">5 star</label><br>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+
+            <button>Submit</button>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <p>&copy; 2023 Soggyroll. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
