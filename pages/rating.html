@@ -1,23 +1,28 @@
-<!--#include virtual="common/document_head.html" -->
+<!DOCTYPE html>
+<!-- document_head.html -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="../css/rating.css">
+  <script src="../scripts/feedbackFormValidate.js"></script>
+  <title>Soggyroll</title>
+</head>
 
 <body>
-    <header>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/default.css">
-        <script src="scripts/feedback_validate.js"></script>
-        <title>Soggyroll</title>
-    </header>
+    
     <main>
 
-        <form id="feedback_form" action="" method="get" class="form-example" onsubmit="feedback_validate()">
-            <label for="feedback_text">Your feedback</label>
-            <input type="text" id="feedback_text" name="feedback_text">
+        <form id="contactform" class="form-example" onsubmit="feedbackFormValidate();return false">
+            <label for="contactform">Your feedback</label>
+            <input type="text" id="feedback_text" name="text"><br>
 
             <input type="radio" id="one" name="rating" value="1">
             <label for="one">1 star</label><br>
             <input type="radio" id="two" name="rating" value="2">
             <label for="two">2 star</label><br>
-            <input type="radio" id="thre" name="rating" value="3">
+            <input type="radio" id="three" name="rating" value="3">
             <label for="three">3 star</label><br>
             <input type="radio" id="four" name="rating" value="4">
             <label for="four">4 star</label><br>
