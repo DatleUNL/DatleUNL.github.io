@@ -7,21 +7,30 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/index.css">
   <title>Soggyroll</title>
+  <script src="scripts/menus.js"></script>
 </head>
 
 <body>
   <header>
-    <nav>
+    <nav class="Links">
       <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Anime</a></li>
-          <li><a href="#">Drama</a></li>
-          <li><a href="#">Collections</a></li>
-          <li><a href="pages/rating.html">Rate Us</a></li>
-          <li><a href="#">Premium</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Store</a></li>
+        <li onmouseover="show('dropdown-content')" onmouseout="hide()">
+          <a>Browse &#9660;</a>
+          <div id="dropdown-content">
+            <a href="#">Product Catalog</a>
+            <a href="#">Featured Products</a>
+            <a href="#">Services</a>
+            <a href="#">Suppliers</a>
+          </div>
+        </li>
+        <li><a href="pages/rating.html">Rate Us</a></li>
+        <li><a href="#">Premium</a></li>
+        <li><a href="pages/settings.html">Settings</a></li>
       </ul>
       <div>
-          <a href="pages/login.html">Log in</a>
+        <a href="pages/login.html">Log in</a>
       </div>
     </nav>
   </header>

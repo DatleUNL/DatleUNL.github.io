@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- document_head.html -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Soggyroll</title>
+</head>
+
+<body>
+    <header>
+        <nav class="Links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Store</a></li>
+                <li onmouseover="show('dropdown-content')" onmouseout="hide()">
+                    <a>Browse &#9660;</a>
+                    <div id="dropdown-content">
+                        <a href="#">Product Catalog</a>
+                        <a href="#">Featured Products</a>
+                        <a href="#">Services</a>
+                        <a href="#">Suppliers</a>
+                    </div>
+                </li>
+                <li><a href="pages/rating.html">Rate Us</a></li>
+                <li><a href="#">Premium</a></li>
+            </ul>
+            <div>
+                <a href="pages/login.html">Log in</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <p>Switch between light and dark mode</p>
+        <button id="mode-toggle">Switch mode</button>
+    </main>
+    <footer>
+        <script src="../scripts/menus.js"></script>
+        <script src="../scripts/settings.js"></script>
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <p>&copy; 2023 Soggyroll. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
