@@ -17,6 +17,14 @@ body.light-mode {
     color: black;
 }
 
+body.light-mode a { 
+    color: black;
+}
+
+body.light-mode form { 
+    color: white;
+}
+
 h2 {
     font-size: 36px;
     text-align: center;
@@ -65,7 +73,7 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    background-color: #FFC107;
+    background-color: red;
 }
 
 a {
