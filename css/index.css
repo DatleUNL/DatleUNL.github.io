@@ -10,7 +10,7 @@ body {
     color: white;
 }
 
-.light-mode {
+body.light-mode { 
     background-color: white;
     color: black;
 }
@@ -107,7 +107,6 @@ nav a:hover {
 
 #featured {
     padding: 80px 40px;
-    background-color: #111;
 }
 
 #featured h2 {
@@ -157,7 +156,7 @@ nav a:hover {
     visibility: hidden;
     min-width: 200px;
     padding: 20px 0;
-    background-color: #333;
+    background-color: #222;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     white-space: normal;
 }
